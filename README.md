@@ -59,7 +59,7 @@ Confusion Matrix:
 - False Negatives: 109  
 - ROC AUC: 0.71
 
-![NN Classification 2 ROC](imgaes/nn-class-1.png)
+![NN Classification 1 ROC](imgaes/nn-class-1.png)
 
 ### Model 3: Direct Classification (Neural Network)
 
