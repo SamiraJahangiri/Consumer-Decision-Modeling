@@ -23,7 +23,6 @@ After cleaning:
 - Grouped into Loan Originated by Institutions, Loan Approved but Not Accepted by Borrower, and Denied by Institutions.
 - Balanced for binary classification between bowrroer accepted vs. declined
 
----
 
 ### Model 1: Interest Rate Regression (Neural Network)
 
@@ -77,17 +76,17 @@ Confusion Matrix:
 
 A Random Forest was trained as an interpretable baseline.
 
-### Performance:
+Performance:
 - Test Accuracy: 74.3%  
 - ROC AUC: 0.7245
 
----
+
 
 ### SHAP Explainability
 
 SHAP (SHapley Additive exPlanations) was used to explain model predictions:
 
-### Top Influential Features:
+Top Influential Features:
 1. Rate Spread
 2. Loan Purpose
 3. Down Payment Ratio
@@ -104,7 +103,7 @@ Random Forest SHAP
 
 ![RF SHAP Summary](images/rf_shap_summary.png)
 
----
+
 
 ## Insights
 
@@ -112,7 +111,20 @@ Random Forest SHAP
 - Rate Spread and Institutional Behavior (approval & denial rates) had major influence on consumer decisions.
 - SHAP explained both financial and behavioral factors in borrower acceptance likelihood.
 
----
 
-## 📁 Folder Structure
+
+## References
+
+• FFIEC – Home Mortgage Disclosure Act:
+https://ffiec.cfpb.gov/data-browser/data/2023?category=states&items=FL
+
+• SHAP Python Package:
+https://shap.readthedocs.io/en/latest/index.html
+
+• Scikit-learn (sklearn) Python Library:
+https://scikit-learn.org/stable/
+
+• TensorFlow Python Library:
+https://www.tensorflow.org/
+
 
