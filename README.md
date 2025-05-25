@@ -13,7 +13,7 @@ This project analyzes consumer loan behavior and acceptance decisions using publ
 
 ## Dataset Summary
 
-- Over 10,000,000 loan applications across Florida in 2024.
+- Over 12,000,000 loan applications across Florida in 2024.
 - Features include:
   - Applicant demographics (age, income)
   - Loan characteristics (amount, term, type, purpose)
