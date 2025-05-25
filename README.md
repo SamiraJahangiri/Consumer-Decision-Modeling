@@ -97,12 +97,12 @@ Top Influential Features:
 
 ### SHAP Summary Plots:
 
-Neural Network SHAP
+SHAP Explaining Factors in Accepting a Loan by a Borrower with Highest Probabilities
 
 ![SHAP Explaining Factors in Accepting a Loan with first Highest Probability](images/shap_waterfall_acc_1.png)
 ![SHAP Explaining Factors in Accepting a Loan with second Highest Probability](images/shap_waterfall_acc_2.png)
 
-Random Forest SHAP
+SHAP Explaining Factors in Accepting a Loan by a Borrower with Lowest Probabilities
 
 ![SHAP Explaining Factors in Accepting a Loan with first Lowest Probability](images/shap_waterfall_denied_1.png)
 ![SHAP Explaining Factors in Accepting a Loan with second Lowest Probability](images/shap_waterfall_denied_2.png)
