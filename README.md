@@ -41,7 +41,7 @@ Performance:
 
 ### Actual vs. Predicted Interest Rate Plot:
 
-![Actual vs Predicted Interest Rates](images/actual_vs_predicted.png)
+![Actual vs Predicted Interest Rates](images/combined_plots.png)
 
 
 
@@ -59,6 +59,7 @@ Confusion Matrix:
 - False Negatives: 109  
 - ROC AUC: 0.71
 
+![NN Classification 2 ROC](imgaes/nn-class-1.png)
 
 ### Model 3: Direct Classification (Neural Network)
 
@@ -71,6 +72,7 @@ Confusion Matrix:
 - False Negatives: 667  
 - ROC AUC: 0.73
 
+![NN Classification 2 ROC](images/nn-class-2.png)
 
 ### Model 4: Random Forest Classifier
 
@@ -80,7 +82,7 @@ Performance:
 - Test Accuracy: 74.3%  
 - ROC AUC: 0.7245
 
-
+![Random Forest ROC](images/roc_conf_matrix_loss_RF.png)
 
 ### SHAP Explainability
 
@@ -97,11 +99,13 @@ Top Influential Features:
 
 Neural Network SHAP
 
-![NN SHAP Summary](images/nn_shap_summary.png)
+![SHAP Explaining Factors in Accepting a Loan with first Highest Probability](images/shap_waterfall_acc_1.png)
+![SHAP Explaining Factors in Accepting a Loan with second Highest Probability](images/shap_waterfall_acc_2.png)
 
 Random Forest SHAP
 
-![RF SHAP Summary](images/rf_shap_summary.png)
+![SHAP Explaining Factors in Accepting a Loan with first Lowest Probability](images/shap_waterfall_denied_1.png)
+![SHAP Explaining Factors in Accepting a Loan with second Lowest Probability](images/shap_waterfall_denied_2.png)
 
 
 
