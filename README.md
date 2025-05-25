@@ -1,4 +1,4 @@
-# Consumer-Decision-Modeling HMDA 2020-2024 Datasets
+# Consumer Decision Modeling HMDA 2020-2024 Datasets
 
 Author: Samira Jahangiri  
 Advisor: Dr. Liqiang Ni  
